@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contactează-ne pentru sfaturi personalizate despre un stil de viață sănătos">
+    <meta name="keywords" content="contact, sănătate, nutriție, fitness, consultanță">
+    <title>Contact - Stil de Viață Sănătos</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="imagini/logo.svg" alt="Logo Stil de Viață Sănătos">
+                <h1>Stil de Viață Sănătos</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Acasă</a></li>
+                    <li><a href="despre-noi.html">Despre Noi</a></li>
+                    <li><a href="galerie.html">Galerie</a></li>
+                    <li><a href="contact.html" class="active">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="contact-section">
+            <h2>Contactează-ne</h2>
+
+            <div class="contact-info">
+                <div class="contact-details">
+                    <h3>Informații de Contact</h3>
+                    <p><strong>Adresă:</strong> Strada Sănătății nr. 45, Chișinău, Republica Moldova</p>
+                    <p><strong>Telefon:</strong> <a href="tel:+373564456">+373 564 456</a></p>
+                    <p><strong>Email:</strong> <a href="mailto:contact@stildeviatasanatos.md">contact@stildeviatasanatos.md</a></p>
+                    <p><strong>Program:</strong> Luni - Vineri: 9:00 - 18:00</p>
+
+                    <h3>Urmărește-ne</h3>
+                    <div class="social-links">
+                        <a href="https://facebook.com" target="_blank">Facebook</a>
+                        <a href="https://instagram.com" target="_blank">Instagram</a>
+                        <a href="https://youtube.com" target="_blank">YouTube</a>
+                    </div>
+
+                    <h3>Abonează-te la newsletter</h3>
+                    <p>Primește săptămânal sfaturi și rețete pentru un stil de viață sănătos.</p>
+                </div>
+
+                <div class="contact-form">
+                    <h3>Trimite-ne un mesaj</h3>
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Nume:</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Email:</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="phone">Telefon:</label>
+                            <input type="tel" id="phone" name="phone">
+                        </div>
+
+                        <div class="form-group">
+                            <label>Gen:</label>
+                            <div class="radio-group">
+                                <input type="radio" id="gen-m" name="gen" value="masculin">
+                                <label for="gen-m">Masculin</label>
+                                <input type="radio" id="gen-f" name="gen" value="feminin">
+                                <label for="gen-f">Feminin</label>
+                                <input type="radio" id="gen-n" name="gen" value="nespecificat">
+                                <label for="gen-n">Prefer să nu specific</label>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="data-contact">Data preferată pentru contact:</label>
+                            <input type="date" id="data-contact" name="data-contact">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="subject">Subiect:</label>
+                            <select id="subject" name="subject">
+                                <option value="nutrition">Nutriție</option>
+                                <option value="fitness">Fitness</option>
+                                <option value="mental">Sănătate mentală</option>
+                                <option value="general">Întrebare generală</option>
+                                <option value="other">Altele</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Mesaj:</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+
+                        <div class="form-group checkbox">
+                            <input type="checkbox" id="newsletter" name="newsletter">
+                            <label for="newsletter">Doresc să mă abonez la newsletter</label>
+                        </div>
+
+                        <button type="submit" class="btn">Trimite mesajul</button>
+                    </form>
+                </div>
+            </div>
+
+            <div class="map-container">
+                <h3>Locația noastră</h3>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d86456.60398338815!2d28.774399387387474!3d47.01424089570185!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40c97c3628b769a1%3A0x37d1d6305749dd3c!2zQ2hpyJlpbsSDdSwgTW9sZG92YQ!5e0!3m2!1sro!2sro!4v1653044695954!5m2!1sro!2sro"
+                width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+
+            <section class="faq">
+                <h3>Întrebări Frecvente</h3>
+                <div class="faq-item">
+                    <h4>Oferiți consultații personalizate?</h4>
+                    <p>Da, echipa noastră de specialiști oferă consultații personalizate pentru nutriție, fitness și sănătate mentală. Contactează-ne pentru a programa o întâlnire.</p>
+                </div>
+                <div class="faq-item">
+                    <h4>Cum pot începe un stil de viață mai sănătos?</h4>
+                    <p>Recomandăm să începi cu pași mici și realizabili. Poți începe prin a bea mai multă apă, a adăuga mai multe legume în alimentație și a face o plimbare zilnică de 15-20 minute.</p>
+                </div>
+                <div class="faq-item">
+                    <h4>Organizați evenimente sau workshop-uri?</h4>
+                    <p>Da, organizăm regulat workshop-uri și evenimente despre nutriție, gătit sănătos și fitness. Urmărește-ne pe rețelele sociale pentru anunțuri.</p>
+                </div>
+            </section>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Stil de Viață Sănătos. Toate drepturile rezervate.</p>
+            <div class="social-links">
+                <a href="https://facebook.com" target="_blank">Facebook</a>
+                <a href="https://instagram.com" target="_blank">Instagram</a>
+                <a href="https://youtube.com" target="_blank">YouTube</a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
